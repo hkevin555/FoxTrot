@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Kevin's Portforlio</title>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+
+  <button class="tablink" onclick="openPage('about', this, 'rgb(250, 103, 103)')" id="defaultOpen">About</button>
+  <button class="tablink" onclick="openPage('code', this, 'rgb(63, 126, 63)')">Code</button>
+  <button class="tablink" onclick="openPage('fun', this, 'rgb(196, 133, 255)')">Fun</button>
+
+  <div id="about" class="tabcontent">
+    <!-- bootstrap card that has skills, codepen/linkin/github links, extra information on me -->
+    <div class="row">
+
+      <div class="col-4">
+        <div class="card bg-light text-dark">
+          <img class="card-img-top" id= "person" src="https://i.pinimg.com/736x/07/29/ef/0729efabec77ed4a13b11c27453189e0.jpg">
+          <div class="card-img-overlay">Lil K</div>
+          <div class="card-body">
+            <p>skills: Python, Javascript, CSS, HTML, SQL</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <p>Most Popular Links of Spring 2024:</p>
+            <a href="https://codepen.io/hkevin555" target="_blank" class="card-link">CodePen</a>
+            <a href="https://github.com/hkevin555" target="_blank" class="card-link">Github</a>
+            <a href="https://www.linkedin.com/in/kevin-hernandez-6b473124a/" target="_blank" class="card-link">LinkedIn</a>
+            <a href="https://gist.github.com/barrycumbie/de4aa0fcb0cad79a870305240d726cd0" target="_blank" class="card-link">Course</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <h4>About Me:</h4>
+            <p>Avid Sodoku and Chess player </p>
+            <p>Data Entry Clerk/Legal Assistant at Johnson Law Firm</p>
+            <p>Currently live in Florence with my wife, son, and two miniature schnauzers</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="code" class="tabcontent">
+    <!-- code validator, github code, other projects(a-e) -->
+    <div class="row">
+
+      <div class="col-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <p>Validation Link for this Page.</p>
+            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fraidengreene.github.io%2Ffoxtrotfall2023%2F" target="_blank" class="card-link">Validator</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <p>Github code for this page.</p>
+            <a href="https://github.com/hkevin555/FoxTrot" target="_blank" class="card-link">FoxTrot
+            </a>
+            <br>
+            <br>
+          <p>below is the wireframe to FoxTrot.</p>
+          </div>
+        <img class="card-img-bottom" src="./wireframeforpage.jpg" alt="Card image"> 
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <h4>Links to other projects I've done</h4>
+            <a href="https://hkevin555.github.io/echo_lab/" target="_blank" class="card-link">Central page for projects</a>
+            <p>Here are the individual links to each page</p>
+            <ul>
+             <!-- <li><a href="https://hkevin555.github.io/Alfa/" target="_blank" class="card-link">Alfa</a></li> -->
+              <li><a href ="https://hkevin555.github.io/lab-charlie" target="_blank" class="card-link">Charlie</a></li>
+              <li><a href="https://hkevin555.github.io/DeltaLab/" target="_blank" class="card-link">Delta</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="fun" class="tabcontent">
+    <!-- link to music playlist, link to red vox, current playing games or top 5 -->
+    <div class="row">
+
+      <div class="col-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <p>As a UFC enthusiast, these are some of my favorite fights I would recommend.</p>
+            <!-- <a href="https://www.youtube.com/watch?v=P2DnVNjyuqY&list=RDCLAK5uy_k5n4srrEB1wgvIjPNTXS9G1ufE9WQxhnA" target="_blank" class="card-link">whole playlist</a> -->
+            <ul>
+              <li><a href="https://www.youtube.com/watch?v=Xwfz2FSEk3E" target="_blank" class="card-link">Porier vs Hooker</a></li>
+              <li><a href="https://www.youtube.com/watch?v=aRSavbVM_s4" target="_blank" class="card-link">Lawler vs MacDonald 2</a></li>
+              <li><a href="https://www.youtube.com/watch?v=LPpqcvIlrhQ" target="_blank" class="card-link">Diaz vs McGregor</a></li>
+              <li><a href="https://www.youtube.com/watch?v=solphxML3FQ" target="_blank" class="card-link">Gaethje vs Johnson</a></li>
+              <li><a href="https://www.youtube.com/watch?v=KzgArfCZ3hU&list=PLIiI4TlOInddoahztyfa0PFXKCjZ_GLpp&index=16" target="_blank" class="card-link">Lawler vs Condit</a></li>
+              <li><a href="https://www.youtube.com/watch?v=7P1NPHHqMVM&list=PLIiI4TlOInddoahztyfa0PFXKCjZ_GLpp&index=74" target="_blank" class="card-link">Henderson vs Rua</a></li>
+              <li><a href="https://www.youtube.com/watch?v=FY7LDaq-GiE" target="_blank" class="card-link">Teixeira vs Prochazka</a></li>
+              <li><a href="https://www.youtube.com/watch?v=6COZQfX-NnM" target="_blank" class="card-link">Porier vs Holloway 2</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <p>Links to artists I enjoy to listen to.</p>
+            <a href="https://open.spotify.com/artist/4q3ewBCX7sLwd24euuV69X" target="_blank" class="card-link">Bad Bunny</a>
+            <a href="https://open.spotify.com/artist/5XJDexmWFLWOkjOEjOVX3e" target="_blank" class="card-link">Eladio Carrion</a>
+            <a href="https://open.spotify.com/artist/0Q8NcsJwoCbZOHHW63su5S" target="_blank" class="card-link">Mora</a>
+            <a
+href="https://open.spotify.com/artist/3HiuzBlSW7pGDXlSFMhO2g" target="_blank" class="card-link">Young Dolph</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <p>My personal top 5 TV shows of all time.
+              <ol>
+                <li>Breaking Bad</li>
+                <li>The Office</li>
+                <li>Game of Thrones</li>
+                <li>Naruto</li>
+                <li>Parks and Rec</li>
+              </ol>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script><script  src="scripts/script.js"></script>
+
+</body>
+</html>
