@@ -1,13 +1,14 @@
-body, html {
+p {
     height: 100%; 
     margin: 0;
-    font-family: Arial;
+    font-family: Verdana;
+    font-size: 17px;
   }
   
 /* Style tab links */
 .tablink {
-    background-color: #555;
-    color: white;
+    background-color: #778899;
+    color: black;
     float: left;
     border: none;
     outline: none;
@@ -30,6 +31,6 @@ body, html {
 }
 
 #person {height: 50%; width: 50%}  
-#about {background-color: rgb(250, 103, 103);}
-#code {background-color: rgb(63, 126, 63);}
-#fun {background-color: rgb(196, 133, 255);}
+#about {background-color: rgb(240, 248, 101);}
+#code {background-color: rgb(0, 255, 128);}
+#fun {background-color: rgb(128, 133, 255);}
